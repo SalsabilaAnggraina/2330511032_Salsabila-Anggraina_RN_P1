@@ -43,6 +43,17 @@
 
 ---
 
+## Screenshot
+
+| Tahapan | Tampilan |
+|----------|-----------|
+| **1. Aplikasi Default (Welcome to Expo)** | ![App Default](./screenshots/appDefault.png) |
+| **2. Counter – useState (Hitung Tombol Tambah)** | ![Counter](./screenshots/counter.png) |
+| **3. FlatList – Daftar Data Mahasiswa / Diary** | ![FlatList](./screenshots/flatlist.png) |
+| **4. Layout Flexbox – Kartu Responsif** | ![Flexbox](./screenshots/flexbox.png) |
+
+
+
 ## 📚 Ringkasan Belajar
 
 Pada praktikum ini, saya mempelajari langkah awal pengembangan aplikasi mobile menggunakan **React Native** dengan bantuan **Expo**. Proses dimulai dari verifikasi lingkungan kerja, pembuatan proyek baru, hingga menjalankan aplikasi di emulator atau perangkat fisik. Saya mengenal struktur dasar proyek seperti `App.js`, `package.json`, dan `app.json`, serta memahami bagaimana JSX digunakan untuk membangun tampilan.
