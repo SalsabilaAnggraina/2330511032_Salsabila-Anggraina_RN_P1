@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# Praktikum React Native – Pertemuan 1
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Cara Menjalankan
 
-## Get started
-
-1. Install dependencies
+1. Pastikan sudah menginstal **Node.js**, **npm**, dan **Git**.
+   Jalankan perintah berikut untuk memverifikasi:
 
    ```bash
-   npm install
+   node -v
+   npm -v
+   git --version
    ```
-
-2. Start the app
+2. Buat proyek baru dan jalankan aplikasi:
 
    ```bash
+   npx create-expo-app rn-pertemuan1
+   cd rn-pertemuan1
    npx expo start
    ```
+3. Buka aplikasi di:
 
-In the output, you'll find options to open the app in a
+   * **Emulator Android** melalui Android Studio → AVD Manager, atau
+   * **Aplikasi Expo Go** dengan memindai QR Code.
+4. Jika berhasil, layar “**Welcome to Expo**” akan muncul.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Versi yang Digunakan
 
-## Get a fresh project
+| Komponen     | Versi      |
+| ------------ | -------    |
+| Node.js      | v22.200.0  |
+| npm          | v10.9.3    |
+| Expo CLI     | v54.0.13   |
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## Perangkat Uji
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+* **Laptop:** Windows 10
+* **Emulator:** Android Studio (Pixel 6 API 34)
+* **Perangkat Fisik (Opsional):** Android 13 via Expo Go
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📚 Ringkasan Belajar
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Pada praktikum ini, saya mempelajari langkah awal pengembangan aplikasi mobile menggunakan **React Native** dengan bantuan **Expo**. Proses dimulai dari verifikasi lingkungan kerja, pembuatan proyek baru, hingga menjalankan aplikasi di emulator atau perangkat fisik. Saya mengenal struktur dasar proyek seperti `App.js`, `package.json`, dan `app.json`, serta memahami bagaimana JSX digunakan untuk membangun tampilan.
+Selain itu, saya berlatih membuat komponen interaktif dengan `useState`, mengatur tata letak menggunakan **Flexbox**, dan menampilkan daftar data menggunakan **FlatList**. Saya juga belajar konsep **props** untuk mengirim data antar komponen dan memahami peran **useEffect** dalam mengelola efek samping. Melalui praktikum ini, saya mendapatkan gambaran menyeluruh tentang dasar pembuatan UI dinamis dan reaktif di React Native, sekaligus memahami bagaimana perubahan kode dapat langsung terlihat lewat fitur **Fast Refresh**.
